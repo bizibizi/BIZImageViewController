@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOp-vp-Q0R">
+                                <rect key="frame" x="246" y="285" width="108" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Show tall image"/>
+                                <connections>
+                                    <action selector="showTallImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iau-Ta-BgW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNb-EW-Tuq">
+                                <rect key="frame" x="240" y="331" width="120" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Show wide image"/>
+                                <connections>
+                                    <action selector="showWideImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NCI-sr-tNb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dNb-EW-Tuq" firstAttribute="top" secondItem="UOp-vp-Q0R" secondAttribute="bottom" constant="16" id="ZsV-aU-39J"/>
+                            <constraint firstItem="dNb-EW-Tuq" firstAttribute="centerX" secondItem="UOp-vp-Q0R" secondAttribute="centerX" id="dm3-m4-tY6"/>
+                            <constraint firstItem="UOp-vp-Q0R" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lEp-Ny-ESG"/>
+                            <constraint firstItem="UOp-vp-Q0R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nd8-87-t5d"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="389"/>
+        </scene>
+    </scenes>
+</document>
