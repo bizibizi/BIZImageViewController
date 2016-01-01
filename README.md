@@ -5,7 +5,7 @@
 ![alt tag](https://github.com/bizibizi/BIZImageViewController/blob/master/presentation.gif)
 
 
-BIZImageViewController is a handy image viewer, downloaded images will be fit to screen.
+BIZImageViewController is a handy image viewer, downloaded image will be fit to screen.
 
 
 # Installation
