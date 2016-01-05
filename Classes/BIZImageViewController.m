@@ -8,7 +8,7 @@
 
 #import "BIZImageViewController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "SDWebImage/UIImageView+WebCache.h"
+#import "UIImageView+WebCache.h"
 
 
 #define k_DELAY_hideStatusBar 0.5
