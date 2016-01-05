@@ -11,7 +11,7 @@ BIZImageViewController is a handy image viewer, downloaded image will be fit to 
 # Installation
 
 ### Manually
-- Copy ```Class``` folder to your project 
+- Copy ```Classes``` folder to your project 
 
 ### From CocoaPods:
 ```objective-c
